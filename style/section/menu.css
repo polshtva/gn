@@ -1,0 +1,36 @@
+/* .menu{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--colorLink);
+    position: relative;
+    z-index: 10;
+}
+
+.menu__list{
+    position: absolute;
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__item{
+    color:aliceblue;
+}
+
+.menu__lists{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 731px;
+    height: 739px;
+    flex-shrink: 0;
+}
+
+.wrapper{
+    display: none;
+}
+
+ */
+.menu{
+    display: none;
+}

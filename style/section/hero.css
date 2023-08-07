@@ -1,0 +1,138 @@
+.hero {
+}
+.container {
+}
+.hero__container {
+    
+}
+.hero__contant {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 20px; */
+    flex-wrap: wrap;
+    
+}
+.hero__info {
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Обязательно для скрытия текста до анимации */
+    position: relative;
+    width: 50%;
+    transform: translate(-5%);
+}
+.hero__title {
+    max-width: 632px;
+    flex-shrink: 0;
+    color: var(--colorTitle);
+    text-align: center;
+    font-family: Literata;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 52.8px */
+    text-transform: capitalize;
+    animation: text-appearance 7s 1;
+}
+
+@keyframes text-appearance{
+    0% {
+        left: 0;
+        color: transparent;
+    }
+    60% {
+        color: var(--colorLink);
+    }
+}
+
+
+.hero__text {
+    margin-top: 56px;
+    width: 609px;
+    height: 325px;
+    flex-shrink: 0;
+    color: var(--colorLink);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 40.5px */
+    animation: text-animation 3s 1;
+}
+
+
+@keyframes text-animation {
+    0% {
+        color: transparent;
+        opacity: 0.4;
+        margin-top: -25px;
+    }
+    50% {
+        color: #A7ABA7;
+    }
+    100% {
+        opacity: 1;
+        color: var(--colorLink);
+    }
+  }
+
+
+.button {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.button__click {
+    padding: 20px 40px;
+    border:  3px solid var(--colorLink);
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: var(--colorLink);
+}
+.button__click_green {
+    background: var(--colorLink);
+    color: white;
+}
+.hero__img-wrapper{
+    min-width: 586px;
+    height: 807px;
+    flex-shrink: 0;
+    border-radius: 500px 500px 0px 0px;
+    border: 3px double var(--colorLink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: Appear 4s 1;
+}
+
+@keyframes Appear {
+    0%{
+        /* margin-top: -30px; */
+        opacity: 0.4%;
+    }
+}
+
+
+.hero__picture {
+    width: 570px;
+    height: 791px;
+    flex-shrink: 0;
+    border-radius: 500px 500px 0px 0px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000;
+}
+
+.hero__img{
+    
+}

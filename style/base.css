@@ -1,0 +1,24 @@
+body{
+    --colorTitle: #343D33;
+    --colorLink: #475F45;
+}
+
+p{
+    margin: 0;
+}
+ul > li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, button{
+    cursor: pointer;
+}
+/* .container{
+    width: 1400px !important;
+    padding: 0 10px;
+    margin: 0 auto;
+} */
